@@ -129,9 +129,9 @@ img {
  ************************************************/
 
 /* Solution tablet 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .container {
-        width: 768px;
+        width: 100%;
         padding: 0 10px;
     }
 }
@@ -139,10 +139,9 @@ img {
 /* Solution mobile 480px */
 @media screen and (max-width:480px){
     .container{
-        width: 480px;
+        width:100%;
         padding: 0 5px;
     }
-
     .row{
         flex-direction: column;
         align-items: center;
@@ -164,7 +163,5 @@ img {
     }
     .steps {
         margin: 3rem 0 0;
-    }
-    
-    
+    }   
 }
