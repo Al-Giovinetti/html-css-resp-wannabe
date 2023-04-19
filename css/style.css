@@ -127,3 +127,10 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* Lessons  section tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
