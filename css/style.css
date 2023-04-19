@@ -153,6 +153,18 @@ img {
     .steps .col img {
         margin-top: 2rem;
     }
+    .why-us .col-left {
+        width: 90%;
+    }
+    .why-us{
+        color: white;
+        background-color: black;
+        padding-top: 3rem;
+        margin-bottom: 0;
+    }
+    .steps {
+        margin: 3rem 0 0;
+    }
     
     
 }
