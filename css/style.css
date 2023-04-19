@@ -128,6 +128,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* Solution 1160px */
+@media screen and (max-width: 1160px){
+    .container{
+        width: 100%;
+        transition: all 5s linear;
+    }
+}
+
 /* Solution tablet 768px */
 @media screen and (max-width: 768px){
     .container {
@@ -142,18 +150,24 @@ img {
         width:100%;
         padding: 0 5px;
     }
+    .lessons .col {
+        width: 80%;
+    }
     .row{
         flex-direction: column;
         align-items: center;
     }
     .steps .col {
-        width: 100%;
+        width: 80%;
     }
     .steps .col img {
         margin-top: 2rem;
     }
     .why-us .col-left {
-        width: 90%;
+        width: 80%;
+    }
+    .why-us .col-right {
+        width: 80%;
     }
     .why-us{
         color: white;
