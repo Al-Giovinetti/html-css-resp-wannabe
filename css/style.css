@@ -128,9 +128,31 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* Lessons  section tablet */
+/* Solution tablet 768px */
 @media screen and (max-width: 768px) {
     .container {
         width: 768px;
+        padding: 0 10px;
     }
+}
+
+/* Solution mobile 480px */
+@media screen and (max-width:480px){
+    .container{
+        width: 480px;
+        padding: 0 5px;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .steps .col img {
+        margin-top: 2rem;
+    }
+    
+    
 }
